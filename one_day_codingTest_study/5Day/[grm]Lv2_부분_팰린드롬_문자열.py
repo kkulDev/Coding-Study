@@ -7,7 +7,7 @@
 import sys
 # 첫 줄 입력값을 string에 문자열로 저장
 string = sys.stdin.readline()
-# 부분 문자열 길이가 1일 경우 default
+# 부분 팰린드롬 문자열 길이 default
 leng = 1
 # 부분 문자열의 길이 순환
 for i in range(2, len(string)+1):
